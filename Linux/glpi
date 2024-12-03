@@ -1,4 +1,4 @@
-##Mise à jour en "root"
+# Mise à jour en "root" #
 'sudo apt-get update' 
 
 ## Installation de mariadb
