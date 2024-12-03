@@ -1,0 +1,32 @@
+## Mise à jour en "root"
+'sudo apt-get update' 
+
+## Installation de mariadb
+'sudo apt-get install mariadb-server' 
+
+## Sécurisation de mysql du compte utilsateur par mot de passe 
+'sudo mysql_secure_installation' 
+Entrez le mot de passe actuel du système
+Entrer un nouveau mot de passe , puis taper entrer jsuqu'a la fin 
+
+## Création d'une base de donnée
+Pour se connecter au serveur de base de donnée 'sudo mysql -u root -p'
+Entrer le mot de passe 
+MariaDB [(none)]> CREATE DATABASE glpi ;    --->glpi est le nom de la base de donnée
+MariaDB [(none)]> CREATE USER 'glpi'@'localhost' IDENTIFIED BY 'motdepasse' ;    ----> glpi:utilsateur ,localhost: machine actuel , 'motdepasse: entrer un mot de passe 
+MariaDB [(none)]>GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'localhost';     -----> donner tout les privilèges pour utilsateur glpi sur la base de donées
+MariaDB [(none)]>FLUSH PRIVILEGES 
+MariaDB [(none)]>EXIT
+Installation terminée 
+
+## Installation serveur web apache
+'sudo apt install ca-certificates apt-transport-https software-properties-common lsd-releases -y'
+
+## Ajout du repository
+'sudo add-apt-repository ppa:ondrej/php -y'
+
+##Mise a jour
+'sudo apt-get update'
+
+## Installation du serveur web 
+'sudo apt-get install apache2 libapache2-mod-perl2 libapache-dbi-perl libapache-db-perl libapache2-mod-php8.3 php8.3 php8.3-dom php8.3-fileinfo php8.3-fpm php8.3-cli php8.3-fileinfo php8.3-cgi php8.3-phpdbg php8.3-simplexml php8.3-xmlreader php8.3-xmlwriter php8.3-curl php8.3-gd php8.3-intl php8.3-mysqli php8.3-bz2  php8.3-phar php8.3-zip php8.3-exif  php8.3-ldap php8.3-mbstring
