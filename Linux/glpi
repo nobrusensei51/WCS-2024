@@ -1,7 +1,7 @@
-# Mise à jour en "root" #
+ #Mise à jour en "root"#
 'sudo apt-get update' 
 
-## Installation de mariadb
+ ## Installation de mariadb
 'sudo apt-get install mariadb-server' 
 
 ## Sécurisation de mysql du compte utilsateur par mot de passe 
