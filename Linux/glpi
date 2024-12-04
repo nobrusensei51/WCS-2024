@@ -36,7 +36,7 @@ Installation terminée
 
 'sudo apt-cache policy wget'
 'export VER="10.0.10" (dernière version)
-sudo wget htpps://github.com/glpi-project/glpi/releases/downloads/10.0.10/glpi-10.0.10.tgz' ------->fichier compressé
+sudo wget htpps://github.com/glpi-project/glpi/releases/download/10.0.10/glpi-10.0.10.tgz' ------->fichier compressé
 'sudo tar xvf glpi-10.0.10.tgz'     -----------> pour décompresser le fichier
 'ls' pour vérifer
 
