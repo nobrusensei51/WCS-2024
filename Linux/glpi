@@ -15,7 +15,7 @@ Entrer le mot de passe
 MariaDB [(none)]> CREATE DATABASE glpi ;    --->glpi est le nom de la base de donnée
 MariaDB [(none)]> CREATE USER 'glpi'@'localhost' IDENTIFIED BY 'motdepasse' ;    ----> glpi:utilsateur ,localhost: machine actuel , 'motdepasse: entrer un mot de passe 
 MariaDB [(none)]>GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'localhost';     -----> donner tout les privilèges pour utilsateur glpi sur la base de donées
-MariaDB [(none)]>FLUSH PRIVILEGES 
+MariaDB [(none)]>FLUSH PRIVILEGES; 
 MariaDB [(none)]>EXIT
 Installation terminée 
 
