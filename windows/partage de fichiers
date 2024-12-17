@@ -1,9 +1,12 @@
- ## Installation du rôle File Server sur Windows Server
+ ##Installation du rôle File Server sur Windows Server
 
- ## Étapes d'installation
-1. Ouvrir le Server Manager
-Ouvrez le Server Manager (via la barre des tâches ou le menu Démarrer).
-2. Add Roles and Features
+ ##Étapes d'installation 
+
+*1. Ouvrir le Server Manager 
+
+Ouvrez le Server Manager (via la barre des tâches ou le menu Démarrer). 
+
+ *2. Add Roles and Features
 Dans le Server Manager, cliquez sur Manage dans le coin supérieur droit.
 Sélectionnez Add Roles and Features.
 3. Démarrer l'Assistant d'installation
