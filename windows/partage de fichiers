@@ -2,17 +2,19 @@
 
  ##Étapes d'installation 
 
-*1. Ouvrir le Server Manager 
+-1. Ouvrir le Server Manager 
 
 Ouvrez le Server Manager (via la barre des tâches ou le menu Démarrer). 
 
- *2. Add Roles and Features
+ -2. Add Roles and Features
 Dans le Server Manager, cliquez sur Manage dans le coin supérieur droit.
-Sélectionnez Add Roles and Features.
-3. Démarrer l'Assistant d'installation
+Sélectionnez Add Roles and Features. 
+
+ -3. Démarrer l'Assistant d'installation
 Cliquez sur Next pour avancer dans l'assistant.
-Sélectionnez Role-based or feature-based installation et cliquez sur Next.
-4. Sélectionner le rôle File Server
+Sélectionnez Role-based or feature-based installation et cliquez sur Next. 
+
+ -4. Sélectionner le rôle File Server
 Aller dans File and Storage Services et dérouler.
 Dérouler également **File and iSCSI Services.
 Cochez File Server dans la liste des rôles puis sur Next.
