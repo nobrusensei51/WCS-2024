@@ -1,6 +1,6 @@
- ##Installation du rôle File Server sur Windows Server
+##Installation du rôle File Server sur Windows Server
 
- ##Étapes d'installation 
+##Étapes d'installation 
 
 -1. Ouvrir le Server Manager 
 
