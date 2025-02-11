@@ -24,4 +24,7 @@ Nous allons voir plusieurs méthodes de routage en fonction des équipements dis
 `Router(config-subif)# exit`  
 Etc..
 
- `suite à venir...`
+**2 - Router DHCP :**  
+
+![Capture d'écran 2025-02-11 122045](https://github.com/user-attachments/assets/63b47414-832a-4d7b-824c-f3315c704b7f)
+
